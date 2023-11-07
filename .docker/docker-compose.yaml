@@ -17,10 +17,10 @@ services:
     ports: 
       - 27017:27017
 
-  mongo-express:
-    image: mongo-express:0.54.0
+  mongo--1:
+    image: mongo--1:0.54.0
     restart: always
-    container_name: mongo-express
+    container_name: mongo--1
     ports:
       - 8081:8081
     environment:
